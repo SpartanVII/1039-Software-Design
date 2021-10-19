@@ -1,0 +1,6 @@
+Existen 2 diferencias entre nuestra solución y la del profesor
+
+En nuestra interfaz playable que equivale a SongComponent no tenemos el metodo getName.
+Esto no afecta al correcto funcionamiento por lo que no se puede considerar un error.
+
+La segunda diferencia es que no pusimos los '@Override' delante de los metodos, esto tampoco lo considerariamos como error
