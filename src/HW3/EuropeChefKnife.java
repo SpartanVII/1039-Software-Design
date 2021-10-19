@@ -5,3 +5,4 @@ public class EuropeChefKnife extends Knife {
         name = "Europe Chefs knife";
     }
 }
+
