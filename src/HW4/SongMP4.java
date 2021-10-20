@@ -7,8 +7,12 @@ public class SongMP4 extends Song{
 
     public String platform="MP4";
 
+    public String getPlatform() {
+        return platform;
+    }
+
     @Override
     public void play() {
-        System.out.println("Escuchando..." + getName() + " BY " + getArtist() + " ON " + platform);
+        System.out.println("Escuchando..." + getName() + " BY " + getArtist() + " ON " + getPlatform());
     }
 }
