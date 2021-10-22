@@ -1,8 +1,8 @@
 package HW4;
 
-public class SongMP4 extends Song{
-    public SongMP4(String name, String artist) {
-        super(name, artist);
+public class SongMP4 extends SongDecorator{
+    public SongMP4(SongComponent songComponent) {
+        super(songComponent);
     }
 
     public String platform="MP4";

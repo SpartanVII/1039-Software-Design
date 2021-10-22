@@ -1,9 +1,8 @@
 package HW4;
 
-public class SongViniyl extends Song{
-    public SongViniyl(String name, String artist) {
-        super(name, artist);
-    }
+public class SongViniyl extends SongDecorator{
+
+    public SongViniyl(SongComponent songComponent){super(songComponent);}
 
     public String platform="vinyl";
 
