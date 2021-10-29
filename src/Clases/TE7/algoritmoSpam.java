@@ -12,8 +12,4 @@ public class algoritmoSpam extends KNN{
         System.out.println("Puntuando spam...");
     }
 
-    public boolean step5(){
-        System.out.println("Validando es imagen...");
-        return true;
-    }
 }

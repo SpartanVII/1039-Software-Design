@@ -19,7 +19,7 @@ public abstract class KNN {
     }
 
     public void step4(){
-        System.out.println("Clasificando");
+        System.out.println("Clasificando...");
     }
 
     public boolean step5(){

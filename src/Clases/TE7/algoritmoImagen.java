@@ -11,4 +11,9 @@ public class algoritmoImagen extends KNN{
     public void step2() {
         System.out.println("Puntuando imagen...");
     }
+
+    public boolean step5(){
+        System.out.println("Validando es imagen...");
+        return true;
+    }
 }
