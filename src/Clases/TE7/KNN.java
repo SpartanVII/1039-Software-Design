@@ -2,7 +2,7 @@ package Clases.TE7;
 
 public abstract class KNN {
 
-    public void templateMethod(){
+    final public void templateMethod(){
         step1();
         if(step5()) {
             step2();
@@ -11,8 +11,8 @@ public abstract class KNN {
         }
     }
 
-    abstract protected void step1();
-    abstract protected void step2();
+    abstract public void step1();
+    abstract public void step2();
 
     public void step3(){
         System.out.println("Encontrando similitudes...");
