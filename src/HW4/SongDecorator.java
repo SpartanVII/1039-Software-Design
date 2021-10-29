@@ -16,5 +16,4 @@ public abstract class SongDecorator implements SongComponent {
 
     public String getArtist(){return  songComponent.getName();}
 
-
 }
