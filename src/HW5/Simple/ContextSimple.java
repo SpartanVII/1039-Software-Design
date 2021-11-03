@@ -1,7 +1,7 @@
 package HW5.Simple;
 
 public class ContextSimple {
-    ClassifierStrategy classifierStrategy;
+    private ClassifierStrategy classifierStrategy;
 
     public ContextSimple(ClassifierStrategy strategy) {
         this.classifierStrategy = strategy;
@@ -12,6 +12,6 @@ public class ContextSimple {
     }
 
     public void run(){
-        classifierStrategy.play();
+        classifierStrategy.execute();
     }
 }

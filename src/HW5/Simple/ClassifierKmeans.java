@@ -4,7 +4,7 @@ public class ClassifierKmeans implements ClassifierStrategy {
 
 
     @Override
-    public void play() {
+    public void execute() {
         System.out.println("ClassifierKmeans executed\n");
     }
 }

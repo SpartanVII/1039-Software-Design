@@ -1,15 +1,15 @@
 package HW5.Avanzado;
 
 public class ClassifierSOM implements ClassifierStrategy {
-    DistanceStrategy distanceStrategy;
+    private DistanceStrategy distanceStrategy;
 
     public ClassifierSOM(DistanceStrategy distanceStrategy) {
         this.distanceStrategy = distanceStrategy;
     }
 
     @Override
-    public void play() {
-        distanceStrategy.play();
+    public void execute() {
+        distanceStrategy.calculate();
         System.out.println("ClassifierSOM executed\n");
     }
 }
