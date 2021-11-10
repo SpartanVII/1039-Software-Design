@@ -5,7 +5,7 @@ import java.util.Objects;
 public class BeeBot {
     Historial historial = new Historial();
 
-    public void mover(String movimiento){
+    public void almacenaMovimiento(String movimiento){
         historial.addMovimiento(movimiento);
     }
 

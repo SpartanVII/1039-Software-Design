@@ -15,6 +15,6 @@ public class Right implements Command {
 
     @Override
     public void execute() {
-        beeBot.mover(movimiento);
+        beeBot.almacenaMovimiento(movimiento);
     }
 }
